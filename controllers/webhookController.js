@@ -1,4 +1,4 @@
-const { createSession, sendMessage: sendWatsonMessage } = require('../services/watsonservice');
+const { createSession, sendMessage: sendWatsonMessage } = require('../services/watsonService');
 const { sendMessage: sendInfobipMessage } = require('../services/infobipService');
 const logger = require('../utils/logger');
 
